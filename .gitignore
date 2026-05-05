@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+
+echo "Results/" >> .gitignore
+echo "Results_TR/" >> .gitignore
+echo "*.pkl" >> .gitignore
