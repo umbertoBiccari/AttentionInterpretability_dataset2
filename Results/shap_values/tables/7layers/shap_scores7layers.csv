@@ -1,0 +1,73 @@
+feature,score,original_position,ranking
+Albumin (g/dl),0.176929,9,1
+"1,5-Anhydrosorbitol (mM)",0.118440,0,2
+LDL cholesterol (mg/dl),0.113787,43,3
+3-Hydroxyisobutyric acid (mM),0.108752,4,4
+Erythrocyte sedimentation rate (mm/h),0.103671,27,5
+Dimethylsulfone (mM),0.093297,26,6
+Glucose (mM),0.087308,32,7
+Urate (mg/dl),0.087080,69,8
+Urea to creatinine ratio (unitless),0.086875,71,9
+Glutamine (mM),0.084844,34,10
+Leukocytes (G/l),0.078369,47,11
+Citric acid (mM),0.077550,20,12
+Leucine (mM),0.077250,46,13
+Ornithine (mM),0.068754,55,14
+Choline (mM),0.063415,19,15
+Acetoacetic acid (mM),0.062017,6,16
+Alanine (mM),0.059366,8,17
+Estimated Glomerular Filtration Rate (ml/min/1.73m²),0.059174,29,18
+Cystine (mM),0.057240,23,19
+Tyrosine (mM),0.056530,68,20
+Glyc A (mM),0.055984,36,21
+Serine (mM),0.053941,62,22
+Urea (mg/dl),0.052747,70,23
+Non-albumin protein (g/dl),0.051500,54,24
+Triglycerides (mg/dl),0.047850,66,25
+Myo-inositol (mM),0.045512,52,26
+SPC (mM),0.042642,60,27
+Histidine (mM),0.040533,41,28
+Erythrocytes (T/l),0.040409,28,29
+Calcium (mg/dl),0.036955,18,30
+Sarcosine (mM),0.034335,61,31
+Apolipoprotein B (mg/ml),0.034269,10,32
+Formic acid (mM),0.034129,31,33
+BCAA to AAA (Phe+Tyr) ratio (unitless),0.033541,14,34
+Platelets (G/l),0.032163,57,35
+2-Aminobutyric acid (mM),0.031733,1,36
+Creatine (mM),0.029356,21,37
+Acetone (mM),0.026984,7,38
+Glutamic acid (mM),0.026491,33,39
+Lysine (mM),0.024741,49,40
+Betaine (mM),0.023925,15,41
+Succinic acid (mM),0.023847,63,42
+Dimethylamine (mM),0.023740,25,43
+Ethanol (mM),0.023017,30,44
+Lactic acid (mM),0.022440,45,45
+Glycine (mM),0.021647,39,46
+GlycB to GlycA ratio (unitless),0.021638,37,47
+Glycerol (mM),0.021619,38,48
+HDL cholesterol (mg/dl),0.020736,40,49
+Acetic acid (mM),0.020482,5,50
+Glutamine to glutamate ratio (unitless),0.020437,35,51
+Transferrin (mg/dl),0.019672,65,52
+Creatinine (mM),0.018913,22,53
+2-Hydroxybutyric acid (mM),0.018840,2,54
+Lactate to pyruvate ratio (unitless),0.017500,44,55
+Asparagine (mM),0.017199,12,56
+Threonine (mM),0.016884,64,57
+Proline (mM),0.016857,58,58
+2-Oxoglutaric acid (mM),0.016779,3,59
+Methanol (mM),0.016756,50,60
+Phenylalanine (mM),0.016186,56,61
+"N,N-Dimethylglycine (mM)",0.016022,53,62
+Iron (µg/dl),0.015962,42,63
+Pyruvic acid (mM),0.014825,59,64
+Lipoprotein(a) (mg/dl),0.014430,48,65
+C reactive protein (mg/dl),0.014387,17,66
+Aspartate (mM),0.013370,13,67
+Trimethylamine-N-oxide (mM),0.013262,67,68
+Bilirubin (mg/dl),0.012723,16,69
+Arginine (mM),0.010666,11,70
+D-Galactose (mM),0.009606,24,71
+Methionine (mM),0.008422,51,72

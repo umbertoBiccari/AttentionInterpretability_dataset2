@@ -1,0 +1,11 @@
+rank,feature,mean_abs_shap
+1,Albumin (g/dl),0.15506401
+2,3-Hydroxyisobutyric acid (mM),0.11157451
+3,Urate (mg/dl),0.10248367
+4,"1,5-Anhydrosorbitol (mM)",0.10238444
+5,Glucose (mM),0.09647743
+6,LDL cholesterol (mg/dl),0.09314897
+7,Dimethylsulfone (mM),0.09164915
+8,Erythrocyte sedimentation rate (mm/h),0.09000508
+9,Citric acid (mM),0.08937061
+10,Urea (mg/dl),0.07455558
