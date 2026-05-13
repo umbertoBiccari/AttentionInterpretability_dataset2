@@ -1,0 +1,3 @@
+3-Hydroxybutyric acid (mM)
+Isoleucine (mM)
+Valine (mM)
