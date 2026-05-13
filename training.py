@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
+import time
 
 from metrics import eval_split_metrics_3out_direct, eval_single_metrics
 
@@ -81,6 +82,8 @@ def train_single(
 
     for ep in range(1, epochs + 1):
 
+        start = time.time()
+        
         tr_loss = run_epoch_single(
             model,
             train_loader,
@@ -116,11 +119,14 @@ def train_single(
         else:
             bad_epochs += 1
 
+        end = time.time()
+        
         row = {
             "epoch": ep,
             "train_loss": tr_loss,
             "val_loss": va_loss,
             "lr": current_lr,
+            "time": end-start
         }
 
         if ep % metrics_every == 0 or ep == 1:

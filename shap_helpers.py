@@ -38,8 +38,7 @@ def mean_abs_shap(shap_vals_2d: np.ndarray, tag: str = "") -> np.ndarray:
 
 def topk_table(mean_abs: np.ndarray, 
                names: list, 
-               k: int, 
-               tag: str, 
+               k: int,                
                tabdir: PosixPath) -> pd.DataFrame:
     ma = np.asarray(mean_abs, dtype=float).ravel()
     order = np.argsort(-ma).ravel()[:k].astype(int)
@@ -48,12 +47,11 @@ def topk_table(mean_abs: np.ndarray,
         "feature": [names[int(i)] for i in order],
         "mean_abs_shap": ma[order],
     })
-    df_top.to_csv(tabdir / f"mean_abs_shap_top{k}_{tag}.csv", index=False, float_format="%.8f")
+    df_top.to_csv(tabdir / f"mean_abs_shap_top{k}.csv", index=False, float_format="%.8f")
     return df_top
 
 def global_table(mean_abs: np.ndarray, 
-                 names: list, 
-                 tag: str, 
+                 names: list,                  
                  tabdir: PosixPath) -> pd.DataFrame:
     ma = np.asarray(mean_abs, dtype=float).ravel()
     order = np.argsort(-ma).ravel().astype(int)
@@ -62,7 +60,7 @@ def global_table(mean_abs: np.ndarray,
         "feature": [names[int(i)] for i in order],
         "mean_abs_shap": ma[order],
     })
-    df_g.to_csv(tabdir / f"mean_abs_shap_global_{tag}.csv", index=False, float_format="%.8f")
+    df_g.to_csv(tabdir / "mean_abs_shap_global.csv", index=False, float_format="%.8f")
     return df_g
 
 def cosine_spearman(v1: np.ndarray, v2: np.ndarray):
