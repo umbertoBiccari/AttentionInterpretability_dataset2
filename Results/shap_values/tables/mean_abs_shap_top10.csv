@@ -1,0 +1,11 @@
+rank,feature,mean_abs_shap
+1,Albumin (g/dl),0.20921238
+2,LDL cholesterol (mg/dl),0.11761964
+3,3-Hydroxyisobutyric acid (mM),0.11007542
+4,"1,5-Anhydrosorbitol (mM)",0.10874237
+5,Glucose (mM),0.10255272
+6,Urate (mg/dl),0.08756266
+7,Urea (mg/dl),0.08606476
+8,Dimethylsulfone (mM),0.08004464
+9,Leukocytes (G/l),0.07767481
+10,Alanine (mM),0.07456841
